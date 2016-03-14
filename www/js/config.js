@@ -3,7 +3,7 @@
 window.Config = {
     isRelease: true,
     debug: true,
-    baseUrl: 'http://shiny.sunpop.cn/',
+    baseUrl: 'http://giftbift.bitnamiapp.com/magento/',
 
     getRememberme: function () {
         return localStorage['rememberme'] || true;
@@ -24,7 +24,7 @@ window.Config = {
         localStorage['password'] = password;
     },
     getLocale: function () {
-        return localStorage['locale'] || 'cn';
+        return localStorage['locale'] || 'en';
     },
     setLocale: function (locale) {
         localStorage['locale'] = locale;
